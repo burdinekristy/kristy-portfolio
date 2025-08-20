@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background: #1e1e2f;
+    color: #f4f4f4;
+    margin: 0;
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.projects {
+    max-width: 900px;
+    margin: auto;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
+.project-card {
+    background: #2a2a3d;
+    border-radius: 10px;
+    padding: 1em;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+footer {
+    text-align: center;
+    margin-top: 3em;
+}
